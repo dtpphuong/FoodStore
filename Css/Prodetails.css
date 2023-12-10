@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4; 
+}
+
+#prodetails {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+#prodetails .single-pro-image img {
+    width: 100%;
+    padding-top:50px ;
+}
+
+#prodetails .single-pro-details {
+    width: 100%; 
+    max-width: 510px; 
+    padding: 20px 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    background-color: #fff; 
+    margin: 20px;
+    text-align: center; 
+}
+
+#prodetails .single-pro-details p {
+    font-size: 19px;
+    padding: 20px 0 10px 0;
+    text-align: left;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#prodetails .single-pro-details h6 {
+    font-size: 26px;
+    color: rgb(154, 51, 36);
+}
+
+.options-container {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    justify-content: center;
+}
+
+.options-container select {
+    width: 50px;
+    height: 30px; /* Đặt chiều cao mong muốn */
+    text-align: center;
+    margin-right: 80px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.options-container input {
+    width: 50px;
+    height: 30px; /* Đặt chiều cao mong muốn */
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.price-container {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pname {
+    margin-right: 10px; 
+    font-size: 20px;
+}
+
+.pnews {
+    font-size: 25px;
+    font-weight: bold;
+    color: orange;
+}
+
+
+
+.single-pro-details button {
+    background:  rgb(154, 51, 36);
+    color: white;
+    padding: 10px 20px; 
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.single-pro-details button:hover{
+    background: orange;
+    color:rgb(154, 51, 36) ;
+}
+
+
+
+#product-details-1,
+#product-details-2,
+#product-details-3,
+#product-details-4,
+#product-details-5,
+#product-details-6 {
+    display: none;
+}
